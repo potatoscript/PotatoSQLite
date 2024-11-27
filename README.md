@@ -1,6 +1,6 @@
-# PotatoSQLite
+# Potato.SQLite
 
-The `PotatoSQLite` library is a helper class designed to simplify interactions with SQLite databases in .NET applications.
+The `Potato.SQLite` library is a helper class designed to simplify interactions with SQLite databases in .NET applications.
 It supports database initialization, data manipulation (CRUD operations), and utility functions for SQLite.
 
 ## Features
@@ -14,7 +14,7 @@ It supports database initialization, data manipulation (CRUD operations), and ut
 
 ## Installation
 
-1. Add the `PotatoSQLite` class to your project.
+1. Add the `Potato.SQLite` class to your project.
 2. Ensure you have the `System.Data.SQLite` NuGet package installed.
 
 ```bash
@@ -28,7 +28,7 @@ dotnet add package System.Data.SQLite
 ### 1. Initialize the Helper Class
 
 ```csharp
-using PotatoSQLite;
+using Potato.SQLite;
 
 // With base image URI
 var helper = new Helper("C:\\databases", "example.db", new Uri("http://example.com/images"));
