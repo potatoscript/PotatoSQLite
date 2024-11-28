@@ -33,7 +33,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PotatoSQLite
+namespace Potato.SQLite
 {
     /// <summary>
     /// Helper class for interacting with the SQLite database.
